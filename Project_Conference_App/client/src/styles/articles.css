@@ -1,0 +1,41 @@
+@import 'feedback.css';
+
+.article-layout {
+    margin: 30px 10%;
+}
+
+.article-title {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    background-color: #2a2a2d;
+    box-shadow: #1c1c1e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 60px;
+    text-align: justify;
+}
+
+.article-subtitle{
+    font-size: larger;
+}
+
+.green-text {
+    color: rgb(65, 158, 65);
+}
+
+.red-text {
+    color: rgb(198, 41, 41);
+}
+
+.yellow-text {
+    color: rgb(255, 217, 0);
+}
+
+.article-text-approves{
+    text-align: end;
+}

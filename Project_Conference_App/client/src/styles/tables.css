@@ -1,0 +1,46 @@
+.display-table {
+    table-layout: auto;
+    background-color: #4f4e55;
+    color: #ffffff;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.display-table th {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.display-table tbody tr:hover {
+    background-color: #3a393f;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.display-table tbody tr:active {
+    background-color: #212124;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.display-table th:nth-child(2),.display-table th:nth-child(3) {
+    width: 23%; 
+}
+
+.display-table th:nth-child(1) {
+    width: 40%; 
+}
+
+.display-table tbody td {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+.allconf-table, .allconf-table tr, .allconf-table td {
+    cursor:default;
+}

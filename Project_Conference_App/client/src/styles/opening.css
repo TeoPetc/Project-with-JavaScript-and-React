@@ -1,0 +1,24 @@
+.opening-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.image-left, .image-right {
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex: 2; 
+    text-align: center;
+}
+
+.image-logo{
+    width: 50%;  
+    height: auto;
+}

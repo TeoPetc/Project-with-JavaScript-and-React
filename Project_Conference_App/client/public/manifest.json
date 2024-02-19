@@ -1,0 +1,5 @@
+{
+    "short_name": "Conference app",
+    "name": "Create conference where authors can register and upload articles and reviewers will check them",
+    "start_url": "."
+  }

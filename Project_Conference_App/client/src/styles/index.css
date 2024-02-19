@@ -1,0 +1,17 @@
+@import 'buttons.css';
+@import 'tables.css';
+@import 'forms.css';
+@import 'articles.css';
+@import 'menu.css';
+@import'opening.css';
+@import'confpage.css';
+
+body {
+    background-color: #3a393f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}

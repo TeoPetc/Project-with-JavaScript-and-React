@@ -1,0 +1,69 @@
+.conf-title{
+    margin-top: 2%;
+    font-size: xx-large;
+    font-style: bold;
+    text-align: center;
+}
+.conf-theme{
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+
+.conf-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: start;
+    height: 70vh;
+    padding-left: 3%;
+}
+.your-articles-view{
+    width:200%;
+}
+
+.all-articles-view{
+    width:200%;
+}
+
+.btn-collapse-expand{
+    background-color: #776fa5;
+    color: #ffffff;
+    border: 1.8px solid #342f53;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* transition: box-shadow 0.3s ease-in-out;*/
+}
+
+.btn-collapse-expand:active{
+    background-color: #554f74;
+}
+
+.confpage-my-articles tbody tr{
+    cursor:pointer;
+    background-color: #4f4e55;
+    border: none;
+}
+.confpage-my-articles{
+    border-collapse: collapse;
+    width:100%;
+
+}
+.confpage-my-articles thead{
+    text-align: left;
+    justify-self:normal;
+ 
+}
+.confpage-all-articles li{
+    cursor:pointer;
+    background-color: #4f4e55;
+    border: none;
+}
+
+.btn-add-article {
+    margin-top: 10%;
+}

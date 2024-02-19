@@ -1,0 +1,35 @@
+.menu-bar{
+    background-color: #4f4e55;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-btn {
+    background-color: #4f4e55;
+    color: #ffffff;
+    border: none;
+    padding: 10px 100px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #3a393f;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-btn:active {
+    background-color: #212124;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-btn:hover{
+    background-color: #721212;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-btn:active {
+    background-color: #212124;
+    transition: background-color 0.3s, color 0.3s;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "role": "author",
+        "firstName": "Alex",
+        "lastName": "Popa",
+        "email": "alex.popa@gmail.com",
+        "birthDate": "2003-10-10T23:59:59Z",
+        "password": "xxx123"
+    },
+    {
+        "role": "organiser",
+        "firstName": "Alina",
+        "lastName": "Ilie",
+        "email": "alina.ilie@gmail.com",
+        "birthDate": "2004-10-11T23:59:59Z",
+        "password": "xxx123xxx"
+    },
+    {
+        "role": "reviewer",
+        "firstName": "Irina",
+        "lastName": "Popa",
+        "email": "irina.popa@gmail.com",
+        "birthDate": "2003-11-11T23:59:59Z",
+        "password": "xxx123456"
+    },
+    {
+        "username": "alex.popa@gmail.com",
+        "password": "xxx123"
+    },
+    {
+        "username": "alina.ilie@gmail.com",
+        "password": "xxx123xxx"
+    },
+    {
+        "username": "irina.popa@gmail.com",
+        "password": "xxx123456"
+    },
+    {
+        "theme": "Science",
+        "startDate": "2023-10-11T23:59:59Z"
+    }
+]

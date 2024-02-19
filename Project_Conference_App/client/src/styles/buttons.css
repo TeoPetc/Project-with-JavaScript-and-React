@@ -1,0 +1,27 @@
+.btn {
+    background-color: #463b83;
+    color: #ffffff;
+    border: 1.8px solid #342f53;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset, vertical offset, blur radius, color */
+    /* transition: box-shadow 0.3s ease-in-out;*/
+}
+
+.btn:hover {
+    background-color: #544d87;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:active {
+    background-color: #342f53;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-add{
+    margin-left: 5%;
+}
